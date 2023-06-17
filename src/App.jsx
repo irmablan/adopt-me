@@ -4,8 +4,8 @@ import { createRoot } from "react-dom/client";
 const Pet = (props) => {
   return React.createElement("div", {}, [
     React.createElement("h1", {}, props.name),
-    React.createElement("h1", {}, props.animal),
-    React.createElement("h1", {}, props.breed),
+    React.createElement("h2", {}, props.animal),
+    React.createElement("h2", {}, props.breed),
   ]);
 };
 
